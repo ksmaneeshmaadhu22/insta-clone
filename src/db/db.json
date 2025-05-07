@@ -1,0 +1,155 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "tesla",
+        "profile_picture": "src/assets/labr.jpg"
+      },
+      "image": "src/assets/sunset.jpg",
+      "caption": "Golden hour magic ✨",
+      "likes": 120,
+      "comments": [
+        {
+          "user": {
+            "id": 201,
+            "username": "naturefan",
+            "profile_picture": "src/assets/naturefan.jpg"
+          },
+          "comment": "Absolutely beautiful!"
+        },
+        {
+          "user": {
+            "id": 202,
+            "username": "traveljunkie",
+            "profile_picture": "https://example.com/profiles/traveljunkie.jpg"
+          },
+          "comment": "Where is this place?"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "leo",
+        "profile_picture": "src/assets/coffeelover.jpg"
+      },
+      "image": "src/assets/coffeelover.jpg",
+      "caption": "Start your day right ☕",
+      "likes": 95,
+      "comments": [
+        {
+          "user": {
+            "id": 203,
+            "username": "morningvibes",
+            "profile_picture": "https://example.com/profiles/morningvibes.jpg"
+          },
+          "comment": "Nothing better than coffee!"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mountainhiker",
+        "profile_picture": "src/assets/mountainhiker.jpg"
+      },
+      "image": "src/assets/mountainhiker.jpg",
+      "caption": "Climb high, dream higher 🏔️",
+      "likes": 210,
+      "comments": [
+        {
+          "user": {
+            "id": 204,
+            "username": "adventuretime",
+            "profile_picture": "https://example.com/profiles/adventuretime.jpg"
+          },
+          "comment": "Wow, what a view!"
+        },
+        {
+          "user": {
+            "id": 205,
+            "username": "outdoorlover",
+            "profile_picture": "https://example.com/profiles/outdoorlover.jpg"
+          },
+          "comment": "This is goals 🔥"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "id": 110,
+    "username": "maneesh_chinnu_22",
+    "profile_pic": "src/assets/profPic.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "301",
+      "username": "suresh_raina_03",
+      "profile_pic": "src/assets/raina.jpg"
+    },
+    {
+      "id": "302",
+      "username": "ms_dhoni",
+      "profile_pic": "src/assets/dhoni.jpg"
+    },
+    {
+      "id": "303",
+      "username": "srt_10",
+      "profile_pic": "src/assets/sachin.jpg"
+    }
+  ],
+  "stories": [
+    {
+      "id": "401",
+      "user": {
+        "id": 501,
+        "username": "tesla",
+        "profile_picture": "src/assets/labr.jpg"
+      },
+      "image": "/src/assets/puppy.jpg"
+    },
+    {
+      "id": "402",
+      "user": {
+        "id": 502,
+        "username": "vihaan",
+        "profile_picture": "/src/assets/vihaan.jpg"
+      },
+      "image": "/src/assets/vihu.jpg"
+    },
+    {
+      "id": "403",
+      "user": {
+        "id": 503,
+        "username": "yesunaadhar",
+        "profile_picture": "src/assets/yesunadha.jpg"
+      },
+      "image": "/src/assets/yesu.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": 601,
+      "username": "tesla",
+      "profile_picture": "src/assets/labr.jpg"
+    },
+    {
+      "id": 602,
+      "username": "vihaan",
+      "profile_picture": "/src/assets/vihaan.jpg"
+    },
+    {
+      "id": 603,
+      "username": "yesunaadhar",
+      "profile_picture": "src/assets/yesunadha.jpg"
+    },
+    {
+      "id": "302",
+      "username": "ms_dhoni"
+    }
+  ]
+}
